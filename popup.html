@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Bookmarks</title>
+    <style>
+      html, body {
+          height: 400px;
+      }
+      body {
+        min-width: 900px;
+        background-color: rgba(18,18,18,1);
+        color: white;
+      }
+      .selected {
+          background-color: rgba(255,255,255,0.5);
+      }
+      .divider {
+          height: 25px;
+          background-color: rgb(95,4,175);
+      }
+      .bookmarks {
+          height: 100%;
+          overflow-y: auto;
+          overflow-x: hidden;
+      }
+      .filter {
+          background-color: rgba(0,0,0,0.5);
+      }
+    </style>
+    <script src="js_components/jquery/jquery.min.js"></script>
+    <script src="lib/app.js"></script>
+  </head>
+  <body>
+  <div>
+      >>>
+      <span id="filter_text" class="filter"></span>
+  </div>
+  <div class="divider"></div>
+  <div id="bookmarks" class="bookmarks"></div>
+  </body>
+</html>
+

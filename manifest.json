@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Bookmark Ctrl-p",
+  "description": "Command line shortcut for listing and opening bookmarks",
+  "version": "0.1",
+  "permissions": [
+      "bookmarks",
+      "tabs"
+  ],
+  "commands": {
+      "_execute_browser_action": {
+        "shortcut" : { "mac": "MacCtrl+P"},
+        "suggested_key": {
+            "default":"Ctrl+P",
+            "mac":"MacCtrl+P"
+        }
+      }
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
