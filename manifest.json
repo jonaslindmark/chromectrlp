@@ -11,8 +11,7 @@
       "_execute_browser_action": {
         "shortcut" : { "mac": "MacCtrl+P"},
         "suggested_key": {
-            "default":"Ctrl+P",
-            "mac":"MacCtrl+P"
+            "default":"Ctrl+Shift+P"
         }
       }
   },
